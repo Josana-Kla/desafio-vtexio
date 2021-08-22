@@ -1,0 +1,14 @@
+.sliderArrows {
+    position: absolute;
+    margin-top: 26%;
+    margin-left: 23%;
+    margin-right: 23%;
+    color: rgb(179, 179, 179);
+    padding-bottom: 20px;
+}
+
+.sliderLayoutContainer {
+    padding-top: 10px;
+    padding-bottom: 2.7%;
+    background-color: rgb(51, 55, 52);
+}

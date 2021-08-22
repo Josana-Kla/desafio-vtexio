@@ -1,15 +1,44 @@
 {
   "store.home": { 
-    "blocks": [
-      "rich-text"
+    "blocks": ["slider-layout#home"]
+    /*slider-layout: bloco onde fica o slide com as imagens dos produtos em destaque, em carrossel */
+  },
+
+  "slider-layout#home": {
+    "props": {
+        "autoplay": {
+            "timeout": 5000,
+            "stopOnHover": true
+        },
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+
+        "infinite": true,
+        "blockClass": "carousel"
+    },
+
+    "children": [
+      "image#brand1", 
+      "image#brand2"
     ]
   },
-  "rich-text": { 
-    "props": { 
-      "text": "VTEX Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
+
+"image#brand1": {
+    "props": {
+        "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/6iibxhv7jzzdn2749uhoxub2fdjf",
+        "width": "60%",
+        "blockClass": "banner"
+      }
+},
+
+"image#brand2": {
+    "props": {
+        "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/du3k6akoks0u3xe322aypnaaal8e",
+        "width": "70%",
+        "blockClass": "banner"
+      }
     }
   }
-}
