@@ -1,4 +1,4 @@
-# Desafio FInal Hiring Coders - VTEX IO
+# Desafio Final Hiring Coders - VTEX IO
 
 O desafio era criar um clone do site da UpMedal utilizando VTEX IO, React e AWS. 
 
